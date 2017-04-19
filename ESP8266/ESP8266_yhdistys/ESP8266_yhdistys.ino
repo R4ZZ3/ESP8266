@@ -1,8 +1,8 @@
 #include <Wire.h> // tämä alkuun
 #include <SoftwareSerial.h> // tämä alkuun
 
-char pass[12] = "\"R4ZZ392!\"";   /// nämä alkuun ennen setup
-char ssid[12] = "\"rt\"";     // alkuun ennen setuppia
+char pass[12] = "\"****\"";   /// nämä alkuun ennen setup
+char ssid[12] = "\"******\"";     // alkuun ennen setuppia
 
 SoftwareSerial esp8266(2,3); // RX, TX //// määrittellään Arduinon pinnit joihin ESP8266:n RX ja TX tulee kiinni
 
