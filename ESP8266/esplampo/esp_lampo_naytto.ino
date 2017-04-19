@@ -19,7 +19,7 @@ SoftwareSerial ESP8266(ESP8266_rxPin, ESP8266_txPin);// rx tx
 
 
 #define IP "184.106.153.149" // thingspeak.com IP address; see their website for more detail
-String GET = "GET https://api.thingspeak.com/update?api_key=QR2S4RDZ4R2WA0QV&field"; // you channel will have unique code https://api.thingspeak.com
+String GET = "GET https://api.thingspeak.com/update?api_key=**********&field"; // you channel will have unique code https://api.thingspeak.com
 //String GET = "http://api.thingspeak.com/update?api_key=QR2S4RDZ4R2WA0QV&field"; // you channel will have unique code https://api.thingspeak.com
 String field1="1=";
 String field2="2=";
